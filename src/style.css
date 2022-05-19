@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     background-color: rgb(64, 14, 201);
+    text-align: center;
 }
 /* div onde está o h1  */
 nav{
@@ -22,6 +23,7 @@ nav{
     
 }
 .mds1{
+    width: 80%;
     margin-top: 70px;
     text-decoration: underline;
 }
@@ -29,3 +31,21 @@ h2{
     background-color: rgb(64, 14, 201);
 }
 
+.a{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.botao{
+    margin-top: 10px;
+    margin-bottom:10px;
+    width: 80%;
+}
+.audio{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.accordion-flush {
+    margin-top: 10px;
+}
