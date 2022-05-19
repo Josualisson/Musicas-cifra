@@ -26,6 +26,10 @@ nav{
     width: 80%;
     margin-top: 70px;
     text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 h2{
     background-color: rgb(64, 14, 201);
