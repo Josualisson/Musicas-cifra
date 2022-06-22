@@ -4,3 +4,5 @@
 ## Tecnologias usadas: 
 
 ### html, css, bootstrap, javascript
+
+#### usar https://x2download.com/pt75 - conversor de video pra audio
