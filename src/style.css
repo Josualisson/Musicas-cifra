@@ -90,14 +90,14 @@ a {
     text-align: center;
 }
 
-/* POP UP */
+/* ################POP UP##################### */
 
 .modal-containe, .modal-containe1 {
     width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,.5);
     position: fixed;
-    top: 25px;
+    top: 0px;
     left: 0px;
     z-index: 2000;
     display: none;
@@ -156,6 +156,13 @@ a {
 
 .subtitulo{
     background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 999px){
+    .modal1{
+        width: 95%;
+    }
 }
 
 
