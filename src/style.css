@@ -1,10 +1,11 @@
 * {
-    padding: 0;
-    margin: 0;
+/*     padding: 0;
+    margin: 0; */
     background-color: rgb(64, 14, 201);
-    text-align: center;
+    /* text-align: center; */
 }
 /* div onde está o h1  */
+
 nav{
     display: flex;
     flex-direction: row;
@@ -83,4 +84,137 @@ h2{
 
 a {
     text-decoration: none
+}
+
+.playlist{
+    text-align: center;
+}
+
+/* POP UP */
+
+.modal-containe, .modal-containe1 {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 25px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-containe.mostrar {
+    display: flex;
+}
+.modal-containe1.mostrar {
+    display: flex;
+}
+
+.modal1, .modal2 {
+    background: white;
+    width: 80%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #988b7a;
+    box-shadow: 0 0 0 10px white;
+    position: relative;
+}
+
+@keyframes modal1  {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 0px, 0);
+    }
+    to {
+        opacity: 100;
+        transform: translate3d(0, 0,0);
+    }
+}
+
+
+.mostrar .modal1 {
+    animation: modal1 .5s ease-in;
+}
+
+.fechar {
+    position: absolute;
+    font-size: 1.2em;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #988b7a;
+    color: white;
+    font-family: "PT Mono", monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+.subtitulo{
+    background-color: white;
+}
+
+
+/*################## POPUP 2 ################### */
+
+.mostrar-modal_class {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.mostrar-modal_class.mostrar3 {
+    display: flex;
+}
+
+.modal_class {
+    background: white;
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #988b7a;
+    box-shadow: 0 0 0 10px white;
+    position: relative;
+}
+
+@keyframes modal-3 {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar3 .modal_class {
+    animation: modal .3s;
+}
+
+.fechar3 {
+    position: absolute;
+    font-size: 1.2em;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #988b7a;
+    color: white;
+    font-family: "PT Mono", monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
 }

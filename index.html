@@ -12,11 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- CSS  -->
     <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/popup2.css">
+
     <!-- CSS BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Ministério de Louvor IBCE</title>
 </head>
 <body>
+<header>
    <nav>
        <h1>Ministério de Louvor IBCE</h1>
    </nav>
@@ -147,23 +150,69 @@
                         </div>
                       </div>
                     </div>
+
           </div>
    </div>
-<br>
-   <div>
-    <a href="https://open.spotify.com/playlist/35OYVUVucjElkKwpOvVGxZ?si=92e993c6f5c14da2" target="_blank" class="btn-footer"><i class="fa-brands fa-spotify"></i>Playlist no Spotify</a>
-   </div>
-   <br>
-   <div>
-    <a href="https://youtube.com/playlist?list=PLEwkcw5VPNVfjV9DX0sU7h17j3v-IDgzA" target="_blank"   class="btn-footer"><i class="fa-brands fa-youtube"></i></i>Playlist no Youtube</a>
-   </div>
-   <br><br>
-   <iframe width="400" height="315" src="https://www.youtube.com/embed/videoseries?list=PLEwkcw5VPNVfjV9DX0sU7h17j3v-IDgzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   <br><br>
-   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/35OYVUVucjElkKwpOvVGxZ?utm_source=generator" width="80%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-   <br><br>
-<p>Atualização - 21/06/2022 - 23:46h</p>
+   <button class="click">Olá mundo</button>
+   <button class="clicar">Olá mundo</button>
 
+
+
+  
+<br>
+<div class="playlist">
+    <div>
+      <a href="https://open.spotify.com/playlist/35OYVUVucjElkKwpOvVGxZ?si=92e993c6f5c14da2" target="_blank" class="btn-footer"><i class="fa-brands fa-spotify"></i>Playlist no Spotify</a>
+    </div>
+    <br>
+    <div>
+      <a href="https://youtube.com/playlist?list=PLEwkcw5VPNVfjV9DX0sU7h17j3v-IDgzA" target="_blank"   class="btn-footer"><i class="fa-brands fa-youtube"></i></i>Playlist no Youtube</a>
+    </div>
+    <br><br>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/videoseries?list=PLEwkcw5VPNVfjV9DX0sU7h17j3v-IDgzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br><br>
+  <p>Atualização - 21/06/2022 - 23:46h</p>
+</div>
+
+
+<div id="modal-promocao" class="modal-containe">
+  <div class="modal1">
+    <button class="fechar">x</button>
+    <h1 text-align="center">Nome da música</h1>
+    <h6 class="subtitulo">
+Na minha angustia eu invoquei o Senhor <br>
+E Ele escutou o meu clamor <br>
+A terra se abalou e tremeu <br>
+Do céu trovejou e desceu<br>
+Do alto me estendeu a mão<br>
+Na minha angustia eu invoquei o Senhor (eu clamei por socorro)<br>
+Ele escutou o meu clamor<br>
+A terra se abalou e tremeu<br>
+Do céu trovejou e desceu<br>
+Do alto me estendeu a mão<br>
+Me tomou, me livrou das muitas águas<br>
+Me trouxe ao lugar espaçoso<br>
+Fez meus pés velozes como os da corsa<br>
+E nas alturas me firmou<br>
+Vive o Senhor! Hei<br>
+Bendita seja a minha Rocha<br>
+Exaltado seja o Deus da minha salvação<br>
+Vive o Senhor! Hei<br>
+Bendita seja a minha Rocha<br>
+Exaltado seja o Deus da minha salvação<br>
+    </h6>
+  </div>
+</div>
+
+<div id="mostrar-modal" class="mostrar-modal_class">
+  <div class="modal_class">
+    <button class="fechar3">x</button>
+    <h1 class="subtitulo3">Conteúdo</h1>
+  </div>
+</div>
+
+  </div>
+</div>
 
 
 
@@ -173,5 +222,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js "></script>
 
+    <!-- POPUP JS -->
+    <script src="src/popup.js"></script>
+    <script src="src/popup2.js"></script>
+
+
+
+</header>
 </body>
 </html>
