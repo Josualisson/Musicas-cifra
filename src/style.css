@@ -1,8 +1,11 @@
 * {
 /*     padding: 0;
     margin: 0; */
-    background-color: rgb(64, 14, 201);
     /* text-align: center; */
+}
+
+body {
+    background-color: rgb(64, 14, 201);
 }
 /* div onde está o h1  */
 
@@ -90,6 +93,10 @@ a {
     text-align: center;
 }
 
+.red{
+    color: red;
+}
+
 /* ################POP UP##################### */
 
 .modal-containe, .modal-containe1 {
@@ -159,11 +166,6 @@ a {
     color: black;
 }
 
-@media only screen and (max-width: 999px){
-    .modal1{
-        width: 95%;
-    }
-}
 
 
 /*################## POPUP 2 ################### */
@@ -187,7 +189,7 @@ a {
 
 .modal_class {
     background: white;
-    width: 60%;
+    width: 80%;
     min-width: 300px;
     padding: 40px;
     border: 10px solid #988b7a;
@@ -198,16 +200,17 @@ a {
 @keyframes modal-3 {
     from {
         opacity: 0;
-        transform: translate3d(0, -60px, 0);
+        transform: translate3d(0, 0px, 0);
     }
     to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
+        opacity: 100;
+        transform: translate3d(0, 0,0);
     }
 }
 
+
 .mostrar3 .modal_class {
-    animation: modal .3s;
+    animation: modal-3 .5s ease-in;
 }
 
 .fechar3 {
@@ -224,4 +227,134 @@ a {
     font-family: "PT Mono", monospace;
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+
+/* #################POP UP 3########## */
+.mostrar-modal_class4 {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.mostrar-modal_class4.mostrar4 {
+    display: flex;
+}
+
+.modal_class4 {
+    background: white;
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #988b7a;
+    box-shadow: 0 0 0 10px white;
+    position: relative;
+}
+
+@keyframes modal-4 {
+    from {
+opacity: 0;
+transform: translate3d(0, 0px, 0);
+}
+to {
+opacity: 100;
+transform: translate3d(0, 0,0);
+}
+}
+
+.mostrar4 .modal_class4 {
+    animation: modal-4 .5s ease-in;
+}
+
+.fechar4 {
+    position: absolute;
+    font-size: 1.2em;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #988b7a;
+    color: white;
+    font-family: "PT Mono", monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+/* #################POP UP 4########## */
+.mostrar-modal_class5 {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.mostrar-modal_class5.mostrar5 {
+    display: flex;
+}
+
+.modal_class5 {
+    background: white;
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #988b7a;
+    box-shadow: 0 0 0 10px white;
+    position: relative;
+}
+
+@keyframes modal-5 {
+    from {
+opacity: 0;
+transform: translate3d(0, 0px, 0);
+}
+to {
+opacity: 100;
+transform: translate3d(0, 0,0);
+}
+}
+
+.mostrar5 .modal_class5 {
+    animation: modal-5 .5s ease-in;
+}
+
+.fechar5 {
+    position: absolute;
+    font-size: 1.2em;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #988b7a;
+    color: white;
+    font-family: "PT Mono", monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+
+
+
+/* RESPONSIVE MODE */
+
+@media only screen and (max-width: 999px){
+    .modal1,.modal_class,.modal_class4,.modal_class5{
+        width: 95%;
+    }
 }
