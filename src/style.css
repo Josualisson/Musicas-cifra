@@ -1,13 +1,23 @@
 * {
+    background-color: rgb(64, 14, 201);
 /*     padding: 0;
     margin: 0; */
     /* text-align: center; */
 }
 
-body {
-    background-color: rgb(64, 14, 201);
+.div-accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 /* div onde está o h1  */
+.baixar{
+    display: flex;
+    justify-content: center;
+    
+}
 
 nav{
     display: flex;
