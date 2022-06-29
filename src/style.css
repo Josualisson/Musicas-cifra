@@ -16,7 +16,7 @@
 .baixar{
     display: flex;
     justify-content: center;
-    
+
 }
 
 nav{
@@ -171,7 +171,7 @@ a {
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
 }
 
-.subtitulo{
+.subtitulo, .subtitulo1, .subtitulo2, .subtitulo3, .subtitulo4, .subtitulo5, .subtitulo6{
     background-color: white;
     color: black;
 }
