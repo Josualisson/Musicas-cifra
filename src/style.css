@@ -260,7 +260,7 @@ a {
 
 .modal_class4 {
     background: white;
-    width: 60%;
+    width: 80%;
     min-width: 300px;
     padding: 40px;
     border: 10px solid #988b7a;
@@ -286,7 +286,7 @@ transform: translate3d(0, 0,0);
 .fechar4 {
     position: absolute;
     font-size: 1.2em;
-    top: -30px;
+    top: 30px;
     right: -30px;
     width: 50px;
     height: 50px;
@@ -358,6 +358,11 @@ transform: translate3d(0, 0,0);
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
 }
 
+.button-letra{
+    display: flex;
+    flex-direction: column
+}
+
 
 
 
@@ -367,4 +372,9 @@ transform: translate3d(0, 0,0);
     .modal1,.modal_class,.modal_class4,.modal_class5{
         width: 95%;
     }
+}
+
+
+strong {
+    background-color: white;
 }
