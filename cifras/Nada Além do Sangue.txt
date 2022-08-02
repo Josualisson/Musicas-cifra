@@ -1,6 +1,6 @@
 Fernandinho - Nada Além do Sangue
 
-[Intro] A  D  A  D
+[Intro] A  F#m  A  F#m
 
 [Primeira Parte] 
 
@@ -82,10 +82,10 @@ Há poder, sim, força sem igual
 Só no sangue de jesus
   A             D         A
 Há poder, sim, prova o pecador
-    E                    A      
+    E                    D      
 Oh! confia no cristo da cruz
 
-intro - D - E - D - E - F#
+intro - D - E - D - E F#
 
 
 
