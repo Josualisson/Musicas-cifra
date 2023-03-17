@@ -1,8 +1,5 @@
-* {
-    background-color: #400ec9;
-/*     padding: 0;
-    margin: 0; */
-    /* text-align: center; */
+*{
+    background-color: #4011c0;
 }
 
 .div-accordion{
@@ -381,4 +378,29 @@ transform: translate3d(0, 0,0);
 
 strong {
     background-color: white;
+}
+
+/* PESQUISADOR */
+.seach{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+input{
+    
+}
+#cifralist{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+#cifralist a {
+    margin-bottom: 10px;
+}
+h3{
+    margin: 0;
+    padding: 0;
 }
