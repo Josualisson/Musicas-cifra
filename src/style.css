@@ -22,16 +22,13 @@ nav{
     justify-content: center;
     color: rgb(172, 232, 243);
     text-decoration: underline;
-    background-color: rgb(64, 14, 201);
 }
 /* div aonde tá o h2  */
 .mds{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: rgb(172, 232, 243);
-    background-color: rgb(64, 14, 201);
-    
+    color: rgb(172, 232, 243);    
 }
 .mds1{
     width: 80%;
