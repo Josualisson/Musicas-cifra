@@ -1,143 +1,148 @@
 Alessandro Vilas Boas - Quero Conhecer Jesus
 
-[Intro] G  A  Bm  F#m
-        G  A  Bm  F#m
+[Intro] C  D  Em  Bm
+        C  D  Em  Bm
 
 [Primeira Parte]
 
-         G                    A
+         C                    D     
 O meu orgulho me tirou do jardim
-          Bm                       F#m
+          Em                       Bm 
 Tua humildade colocou o jardim em mim
-            G
+            C
 E se eu vendesse tudo o que tenho
-     A                    Bm  F#m
+     D                    Em  Bm  
 Em troca do amor eu falharia
-         G                  A
+         C                  D     
 Pois o amor não se compra, nem se merece
-    Bm                F#m
+    Em                Bm 
 O amor se ganha, de graça o recebe
 
 [Refrão]
 
-     G               A
+     C               D     
 Eu quero conhecer Jesus
-     Bm            F#m
+     Em            Bm               
 Eu quero conhecer Jesus
 
 E ser achado Nele
-     G               A
+     C               D     
 Eu quero conhecer Jesus
-     Bm            F#m
+     Em            Bm 
 Eu quero conhecer Jesus
 
 [Primeira Parte]
 
-         G                    A
+         C                    D     
 O meu orgulho me tirou do jardim
-          Bm                       F#m
+          Em                       Bm 
 Tua humildade colocou o jardim em mim
-            G
+            C
 E se eu vendesse tudo o que tenho
-     A                    Bm  F#m
+     D                    Em  Bm 
 Em troca do amor eu falharia
-         G                  A
+         C                  D     
 Pois o amor não se compra, nem se merece
-    Bm                F#m
+    Em                Bm 
 O amor se ganha, de graça o recebe
 
 [Refrão]
 
-     G               A
+     C               D     
 Eu quero conhecer Jesus
-     Bm            F#m
+     Em            Bm 
 Eu quero conhecer Jesus
-     G               A
+     C               D     
 Eu quero conhecer Jesus
-     Bm            F#m
+     Em            Bm 
 Eu quero conhecer Jesus
 
-              G
+              C   
 E ser achado Nele
-              A
+              D 
 E ser achado Nele
-              Bm  F#m
+              Em  Bm 
 E ser achado Nele
 
-              G
+              C   
 E ser achado Nele
-              A
+              D 
 E ser achado Nele
-              Bm  F#m
+              Em  Bm 
 E ser achado Nele
 
 [Ponte 1]
 
-    G  A  Bm  A
+    C  D  Em  D   
 Yeshua________a!
-    G  A  Bm  A
+    C  D  Em  D   
 Yeshua________a!
-    G  A  Bm  A
+    C  D  Em  D   
 Yeshua________a!
-    G  A  Bm  A
+    C  D  Em  D   
 Yeshua________a!
 
 [Refrão 2]
 
-        G             Bm
+        C             Em
 O meu amado é o mais belo
-          D          A
+          G          D   
 Entre milhares e milhares
-        G             Bm
+        C             Em
 O meu amado é o mais belo
-          D          A
+          G          D   
 Entre milhares e milhares
 
-        G             Bm
+        C             Em
 O meu amado é o mais belo
-          D          A
+          G          D   
 Entre milhares e milhares
-        G             Bm
+        C             Em
 O meu amado é o mais belo
-          D          A
+          G          D   
 Entre milhares e milhares
 
 [Ponte 2]
 
-          G
+          C
 Meu preferido, meu predileto
-          Bm
+          Em 
 Meu preferido, meu predileto
-     D      A
+     G      D   
 É Jesus, é Jesus
 
 [Ponte 1]
 
-    G  Bm  D  A
+    C  Em  G  D   
 Yeshua________a!
-    G  Bm  D  A
+    C  Em  G  D   
 Yeshua________a!
-    G  Bm  D  A
+    C  Em  G  D   
 Yeshua________a!
 
 [Refrão 2]
 
-        G             Bm
+        C             Em
 O meu amado é o mais belo
-          D          A
+          G          D   
 Entre milhares e milhares
-        G             Bm
+        C             Em
 O meu amado é o mais belo
-          D          A
-Entre milhares e milhares
-
-        G             Bm
-O meu amado é o mais belo
-          D          A
-Entre milhares e milhares
-        G             Bm
-O meu amado é o mais belo
-          D          A
+          G          D   
 Entre milhares e milhares
 
+        C             Em
+O meu amado é o mais belo
+          G          D   
+Entre milhares e milhares
+        C             Em
+O meu amado é o mais belo
+          G          D   
+Entre milhares e milhares
 
+----------------- Acordes -----------------
+Bm = X 2 4 4 3 2
+C = X 3 2 0 1 0
+D = X X 0 2 3 2
+Em = 0 2 2 0 0 0
+G = 3 2 0 0 0 3
